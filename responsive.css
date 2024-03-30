@@ -1,0 +1,53 @@
+header>h3{
+    font-size: 20px;
+    position: relative;
+    left: -198px;
+}
+
+@media (max-width:320px){
+    .renderPost {
+        width: 110%;
+    }
+
+    #good{
+        font-size: 16px;
+    }
+
+    header>h3{
+        font-size: 15px;
+        position: relative;
+        left: 0px;
+    }
+}
+
+@media (max-width:375px){
+    .renderPost {
+        width: 115%;
+    }
+
+    #good{
+        font-size: 18px;
+    }
+
+    /* header>h3{
+        font-size: 16px;
+        position: relative;
+        left: 20px;
+    } */
+}
+
+@media (max-width:425px){
+    .renderPost {
+        width: 120%;
+    }
+
+    #good{
+        font-size: 20px;
+    }
+
+    header>h3{
+        font-size: 17px;
+        position: relative;
+        left: 8px;
+    }
+}
